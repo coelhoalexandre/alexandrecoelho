@@ -25,7 +25,7 @@
 
 ## Sobre o Projeto
 
-Esse projeto está sendo desenvolvido por Alexandre Coelho e servirá como seu portfólio. Seu design foi realizado no figma e seu código está sendo escrito no Visual Studio Code, ambos pelo autor desse ReadMe.
+Esse projeto está sendo desenvolvido por Alexandre Coelho e servirá como seu portfólio. Seu design foi realizado no **figma** e seu código está sendo escrito no **Visual Studio Code**, ambos pelo autor desse ReadMe.
 
 ## Objetivos do Projeto
 
@@ -49,14 +49,14 @@ Esse projeto está sendo desenvolvido por Alexandre Coelho e servirá como seu p
 
 ### Figma Layout
 
-https://www.figma.com/file/eQ5EsJA4wYEp5ZxuLgId0n/Alexandre-Coelho-Portfolio?type=design&node-id=0%3A1&mode=design&t=L8BLQqKK37jyMRMF-1
+[Link do Figma](https://www.figma.com/file/eQ5EsJA4wYEp5ZxuLgId0n/Alexandre-Coelho-Portfolio?type=design&node-id=0%3A1&mode=design&t=L8BLQqKK37jyMRMF-1)
 
 ## Diário de Desenvolvimento
 
-1º Dia - Inicio do design no Figma
-2º Dia - Conclusão do design no Figma
-3º Dia - Adição do index.html e todo o conteúdo do projeto na página
-4º Dia -
+1º Dia - Inicio do design no Figma <br>
+2º Dia - Conclusão do design no Figma <br>
+3º Dia - Adição do index.html e todo o conteúdo do projeto na página <br>
+4º Dia - <br>
 
 ## Autor
 
