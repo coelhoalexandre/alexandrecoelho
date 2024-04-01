@@ -68,8 +68,6 @@ Logo a baixo estarei deixando os meus principais links, caso tenha interesse em 
 
 <br>
 
-<br>
-
 <div align="center">
 
 <a href="https://www.linkedin.com/in/-coelhoalexandre/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
