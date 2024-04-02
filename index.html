@@ -7,52 +7,68 @@
     <meta name="author" content="Alexandre Coelho">
 
     <title>Portfólio de Alexandre Coelho</title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
     <header class="header">
        <div>
-        <span class="line-1"></span>
-        <span class="line-2"></span>
-        <span class="line-3"></span>
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
        </div>
        
        <nav>
         <ul>
-            <li>Home</li>
-            <li>Sobre mim</li>
-            <li>Projetos</li>
-            <li>Habilidades</li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Sobre mim</a></li>
+            <li><a href="">Projetos</a></li>
+            <li><a href="">Habilidades</a></li>
         </ul>
        </nav>
     </header>
     <main class="main">
-        <section>
-            <img src="https://github.com/coelhoalexandre.png" alt="Imagem de Alexandre Coelho do GitHub">
-            <p>Olá, sou <strong>Alexandre Coelho</strong>,</p>
-            <h1>
-                Desenvolvedor <br/>
-                Front-end
-            </h1>
-            <span>
-                <a href="https://github.com/coelhoalexandre" target="_blank">
-                    <img src="./src/icons/social-media/github-icon.svg" alt="Visite meu GitHub">
-                </a>
-                <a href="https://www.linkedin.com/in/-coelhoalexandre/" target="_blank">
-                    <img src="./src/icons/social-media/linkedin-icon.svg" alt="Visite meu LinkedIn">
-                </a>
-                <a href="https://www.instagram.com/coelhoalexandre_/" target="_blank">
-                    <img src="./src/icons/social-media/instagram-icon.svg" alt="Visite meu Instagram">
-                </a>
-                <a href="mailto:alexandrecoelhocontato@gmail.com" target="_blank">
-                    <img src="./src/icons/social-media/gmail-icon.svg" alt="Envie um e-mail">
-                </a>
-            </span>
-            <p>
-                Estudo na alura e minhas principais tecnologias são <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.
-            </p>
-            <div><span></span></div>
+        <section class="home">
+            <div class="home__wrapper">
+                <img class="home__profile-picture" src="https://github.com/coelhoalexandre.png" alt="Imagem de Alexandre Coelho do GitHub">
+                <div class="home__content">
+                    <p class="home__introduction">Olá, sou <strong class="strong">Alexandre Coelho</strong>,</p>
+                    <div class="content__title-container">
+                        <h1>
+                            Desenvolvedor <br/>
+                            Front-end!
+                        </h1>
+                        <ul class="home__social-medias">
+                            <li>
+                                <a href="https://github.com/coelhoalexandre" target="_blank">
+                                    <img src="./src/icons/social-media/github-icon.svg" alt="Visite meu GitHub">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/-coelhoalexandre/" target="_blank">
+                                    <img src="./src/icons/social-media/linkedin-icon.svg" alt="Visite meu LinkedIn">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/coelhoalexandre_/" target="_blank">
+                                    <img src="./src/icons/social-media/instagram-icon.svg" alt="Visite meu Instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:alexandrecoelhocontato@gmail.com" target="_blank">
+                                    <img src="./src/icons/social-media/gmail-icon.svg" alt="Envie um e-mail">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="home__description">
+                        Estudo na alura e minhas principais tecnologias são <strong class="strong">HTML</strong>, <strong class="strong">CSS</strong> e <strong class="strong">JavaScript</strong>.
+                    </p>
+                </div>
+            </div>
+            <div class="home__container"><div></div></div>
         </section>
-        <section>
+        <section class="about">
             <h2>Sobre mim</h2>
             <div>
                 <p>
@@ -60,11 +76,11 @@
                 </p> 
 
                 <p>
-                    Destaco nesse inicio de jornada os cursos do professor Gustavo Guanabara e dos vídeos de Rafaella Ballerini, que me serviram de muita inspiração nesse começo.
+                    Destaco nesse inicio de jornada os cursos do professor <strong class="strong">Gustavo Guanabara</strong> e dos vídeos da instrutora <strong class="strong">Rafaella Ballerini</strong>, que me serviram de muita inspiração nesse começo.
                 </p>
 
                 <p>
-                    Em 2023, por motivos escolares, não era viável estudar Desenvolvimento Web. Então eu aguardei, até que no fim de 2023, livre do colégio, adquiro a plataforma de ensino, Alura.
+                    Em 2023, por motivos escolares, não era viável estudar Desenvolvimento Web. Então eu aguardei, até que no fim de 2023, livre do colégio, adquiro a plataforma de ensino, <strong class="strong">Alura</strong> 
                 </p>
 
                 <p>
@@ -72,61 +88,69 @@
                 </p>
 
                 <p>
-                    Atualmente, minhas melhores tecnologias são HTML, CSS e JS, entretanto também iniciei o estudo de React e TypeScript. Além disso, em agosto irei iniciar o meu curso de Ciência da Computação pela UESC.
+                    Atualmente, minhas melhores tecnologias são <strong class="strong">HTML</strong>, <strong class="strong">CSS</strong> e <strong class="strong">JS</strong>, entretanto também iniciei o estudo de <strong class="strong">React</strong> e <strong class="strong">TypeScript</strong>. Além disso, em agosto irei iniciar o meu curso de <strong class="strong">Ciência da Computação pela UESC</strong>.
                 </p>
             </div>
         </section>
-        <section>
+        <section class="projects">
             <h2>Projetos</h2>
-            <div>
-                <div>
-                    <img src="./src/images/culturama-landscape-image.jpg" alt="Imagem do Projeto Culturama">
-                    <h3>Culturama</h3>
-                    <p>Projeto Alura de Grid e Flexbox</p>
-                    <span>
-                        <img src="./src/icons/technologies/html-original-icon.svg" alt="Ícone da HTML">
-                        <img src="./src/icons/technologies/css-original-icon.svg" alt="Ícone da CSS">
-                    </span>
-                    <a href="https://projeto-alura-culturama-murex.vercel.app/" target="_blank">Abrir Deploy</a>
-                    <a href="https://github.com/coelhoalexandre/projeto-alura-culturama/" target="_blank">Abrir Repositório</a>
-                </div>
-                <div>
-                    <img src="src/images/fokus-landscape-image.jpg" alt="Imagem do Projeto Fokus">
-                    <h3>Fokus</h3>
-                    <p>Projeto Alura de Manipulação de Dom e localStorage</p>
-                    <span>
-                        <img src="./src/icons/technologies/html-original-icon.svg" alt="Ícone da HTML">
-                        <img src="./src/icons/technologies/css-original-icon.svg" alt="Ícone da CSS">
-                        <img src="./src/icons/technologies/javascript-original-icon.svg" alt="Ícone do JS">
-                    </span>
-                    <a href="https://projeto-alura-fokus.vercel.app/" target="_blank">Abrir Deploy</a>
-                    <a href="https://github.com/coelhoalexandre/projeto-alura-fokus/" target="_blank">Abrir Repositório</a>
-                </div>
-                <div>
-                    <img src="src/images/alurabooks-landscape-image.jpg" alt="Imagem do Projeto AluraBooks">
-                    <h3>AluraBooks</h3>
-                    <p>Projeto Alura mobile first com Swiper</p>
-                    <span>
-                        <img src="./src/icons/technologies/html-original-icon.svg" alt="Ícone da HTML">
-                        <img src="./src/icons/technologies/css-original-icon.svg" alt="Ícone da CSS">
-                        <img src="./src/icons/technologies/swiper-icon.svg" alt="Ícone do Swiper">
-                    </span>
-                    <a href="https://projeto-alurabooks-chi.vercel.app/" target="_blank">Abrir Deploy</a>
-                    <a href="https://github.com/coelhoalexandre/projeto-alurabooks/" target="_blank">Abrir Repositório</a>
-                </div>
-                <div>
-                    <img src="src/images/vidflow-landscape-image.jpg" alt="Imagem do Projeto VidFlow">
-                    <h3>VidFlow</h3>
-                    <p>Projeto Alura para consumir e tratar dados de uma API</p>
-                    <span>
-                        <img src="./src/icons/technologies/html-original-icon.svg" alt="Ícone da HTML">
-                        <img src="./src/icons/technologies/css-original-icon.svg" alt="Ícone da CSS">
-                        <img src="./src/icons/technologies/javascript-original-icon.svg" alt="Ícone do JS">
-                    </span>
-                    <a href="https://projeto-alura-vidflow.vercel.app/" target="_blank">Abrir Deploy</a>
-                    <a href="https://github.com/coelhoalexandre/projeto-alura-vidflow/" target="_blank">Abrir Repositório</a>
-                </div>
-            </div>
+            <ul class="projects__list">
+                <li>
+                    <div>
+                        <img src="./src/images/culturama-landscape-image.jpg" alt="Imagem do Projeto Culturama">
+                        <h3>Culturama</h3>
+                        <p>Projeto Alura de Grid e Flexbox</p>
+                        <span>
+                            <img src="./src/icons/technologies/html-original-icon.svg" alt="Ícone da HTML">
+                            <img src="./src/icons/technologies/css-original-icon.svg" alt="Ícone da CSS">
+                        </span>
+                        <a href="https://projeto-alura-culturama-murex.vercel.app/" target="_blank">Abrir Deploy</a>
+                        <a href="https://github.com/coelhoalexandre/projeto-alura-culturama/" target="_blank">Abrir Repositório</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="src/images/fokus-landscape-image.jpg" alt="Imagem do Projeto Fokus">
+                        <h3>Fokus</h3>
+                        <p>Projeto Alura de Manipulação de Dom e localStorage</p>
+                        <span>
+                            <img src="./src/icons/technologies/html-original-icon.svg" alt="Ícone da HTML">
+                            <img src="./src/icons/technologies/css-original-icon.svg" alt="Ícone da CSS">
+                            <img src="./src/icons/technologies/javascript-original-icon.svg" alt="Ícone do JS">
+                        </span>
+                        <a href="https://projeto-alura-fokus.vercel.app/" target="_blank">Abrir Deploy</a>
+                        <a href="https://github.com/coelhoalexandre/projeto-alura-fokus/" target="_blank">Abrir Repositório</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="src/images/alurabooks-landscape-image.jpg" alt="Imagem do Projeto AluraBooks">
+                        <h3>AluraBooks</h3>
+                        <p>Projeto Alura mobile first com Swiper</p>
+                        <span>
+                            <img src="./src/icons/technologies/html-original-icon.svg" alt="Ícone da HTML">
+                            <img src="./src/icons/technologies/css-original-icon.svg" alt="Ícone da CSS">
+                            <img src="./src/icons/technologies/swiper-icon.svg" alt="Ícone do Swiper">
+                        </span>
+                        <a href="https://projeto-alurabooks-chi.vercel.app/" target="_blank">Abrir Deploy</a>
+                        <a href="https://github.com/coelhoalexandre/projeto-alurabooks/" target="_blank">Abrir Repositório</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="src/images/vidflow-landscape-image.jpg" alt="Imagem do Projeto VidFlow">
+                        <h3>VidFlow</h3>
+                        <p>Projeto Alura para consumir e tratar dados de uma API</p>
+                        <span>
+                            <img src="./src/icons/technologies/html-original-icon.svg" alt="Ícone da HTML">
+                            <img src="./src/icons/technologies/css-original-icon.svg" alt="Ícone da CSS">
+                            <img src="./src/icons/technologies/javascript-original-icon.svg" alt="Ícone do JS">
+                        </span>
+                        <a href="https://projeto-alura-vidflow.vercel.app/" target="_blank">Abrir Deploy</a>
+                        <a href="https://github.com/coelhoalexandre/projeto-alura-vidflow/" target="_blank">Abrir Repositório</a>
+                    </div>
+                </li>
+            </ul>
             <button>Veja mais Projetos</button>
         </section>
         <section>

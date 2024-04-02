@@ -1,0 +1,23 @@
+.header {
+    background-color: var(--tertiary-color);
+
+    display: flex;
+    align-items: center;
+
+    height: 8rem;
+    padding-left: 40px;
+}
+
+.line-1, .line-2, .line-3 {
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 31px;
+}
+
+.line-2 {
+    margin: 8px 0px;
+}
+
+.header nav {
+    display: none;
+}

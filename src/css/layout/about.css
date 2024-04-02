@@ -1,0 +1,21 @@
+.about {
+    background-color: var(--secondary-color);
+    padding: 5rem 0px;
+}
+
+.about h2 {
+    color: var(--primary-color);
+}
+
+.about div {
+    background-color: var(--primary-color);
+    width: 30rem;
+    margin: auto;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 15px;
+    padding: 1.5rem 0.9rem 0;
+}
+
+.about p {
+    margin-bottom: 1.5rem;
+}

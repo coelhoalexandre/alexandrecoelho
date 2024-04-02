@@ -1,0 +1,84 @@
+.home {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 8rem);
+}
+
+.home__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    height: calc(100% - 12vh);
+}
+
+.home__content {
+    width: 29.5rem;
+}
+
+.home__profile-picture {
+    width: 250px;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 50%;
+}
+
+.content__title-container {
+    position: relative;
+    width: auto;
+}
+
+.content__title-container ul {
+    position: absolute;
+    bottom: 5px;
+    left: 55%;
+}
+
+.home__social-medias {
+    display: flex;
+}
+
+.home__social-medias a {
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.home__social-medias img {
+    width: 15px;
+}
+
+.home__container {
+    position: absolute;
+    bottom: 0;
+    
+    background-color: var(--secondary-color);
+    height: 12vh;
+    width: 100%;
+}
+
+
+.home__container div {
+    background-image: url('../../icons/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height: 100%;
+
+    animation-name: arrowMovement;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes arrowMovement {
+    0% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
