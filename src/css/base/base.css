@@ -9,7 +9,6 @@
 }
 
 html {
-    box-sizing: border-box;
     font-family: var(--font-family-main);
     font-size: 62.5%;
 }
@@ -19,6 +18,7 @@ body {
     color: var(--secondary-color);
     font-size: 1.6rem;
     line-height: 1.2;
+    box-sizing: border-box;
 }
 
 
