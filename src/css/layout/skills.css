@@ -1,0 +1,27 @@
+.skills {
+    padding: 5rem 0 10rem;
+    background-color: var(--secondary-color);
+}
+
+.skills h2 {
+    color: var(--primary-color);
+}
+
+.skills__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    width: 230px;
+    margin: 0 auto;
+}
+
+.skills__list img {
+    width: 100px;
+}
+
+@media screen and (min-height: 750px) and (max-height: 820px) {
+    .skills {
+        height: calc(100vh - 15rem);
+    }
+}
