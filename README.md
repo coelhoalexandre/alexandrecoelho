@@ -56,7 +56,8 @@ Esse projeto está sendo desenvolvido por Alexandre Coelho e servirá como seu p
 1º Dia - Inicio do design no Figma <br>
 2º Dia - Conclusão do design no Figma <br>
 3º Dia - Adição do index.html e todo o conteúdo do projeto na página <br>
-4º Dia - <br>
+4º Dia - Inicio da adição de estilos css <br>
+5º Dia - Finalização da estilização do mobile <br>
 
 ## Autor
 
