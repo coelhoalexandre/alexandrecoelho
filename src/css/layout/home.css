@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
 
-    
+    padding-top: 80px;
 }
 
 .home__wrapper {
@@ -49,6 +49,11 @@
 
 .home__social-medias img {
     width: 15px;
+    transition: .5s;
+}
+
+.home__social-medias img:hover {
+    transform: scale(1.1);
 }
 
 
