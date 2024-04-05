@@ -20,8 +20,21 @@
     width: 100px;
 }
 
-@media screen and (min-height: 750px) and (max-height: 820px) {
+@media screen and (min-height: 740px) and (max-height: 820px) and (max-width: 768px) {
     .skills {
-        height: calc(100vh - 15rem);
+        height: 100vh;
+    }
+
+}
+
+@media screen and (min-width: 480px) {
+    .skills__list {
+        width: 360px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .skills__list {
+        width: 490px;
     }
 }

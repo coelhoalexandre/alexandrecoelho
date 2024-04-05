@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
-    <header class="header"">
+    <header class="header">
        <div class="header__menu-hamburger">
         <div class="line-1"></div>
         <div class="menu-hamburger__block"></div>
@@ -99,7 +99,10 @@
             <ul class="projects__list">
                 <li style="display: block;">
                     <div class="project">
-                        <img src="./src/images/culturama-landscape-image.jpg" alt="Imagem do Projeto Culturama">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="./src/images/culturama-portrait-image.jpg">
+                            <img src="./src/images/culturama-landscape-image.jpg" alt="Imagem do Projeto Culturama">
+                        </picture>
                         <div>
                             <h3>Culturama</h3>
                             <p>Projeto Alura de Grid e Flexbox</p>
@@ -112,9 +115,12 @@
                         </div>
                     </div>
                 </li>
-                <li style="display: block;">
+                <li>
                     <div class="project">
-                        <img src="src/images/fokus-landscape-image.jpg" alt="Imagem do Projeto Fokus">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="./src/images/fokus-portrait-image.jpg">
+                            <img src="./src/images/fokus-landscape-image.jpg" alt="Imagem do Projeto Fokus">
+                        </picture>
                         <div>
                             <h3>Fokus</h3>
                             <p>Projeto Alura de Manipulação de Dom e localStorage</p>
@@ -128,9 +134,12 @@
                         </div>
                     </div>
                 </li>
-                <li style="display: none;">
+                <li class="display--none">
                     <div class="project">
-                        <img src="src/images/alurabooks-landscape-image.jpg" alt="Imagem do Projeto AluraBooks">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="./src/images/alurabooks-portrait-image.jpg">
+                            <img src="./src/images/alurabooks-landscape-image.jpg" alt="Imagem do Projeto AluraBooks">
+                        </picture>
                         <div>
                             <h3>AluraBooks</h3>
                             <p>Projeto Alura mobile first com Swiper</p>
@@ -144,9 +153,12 @@
                         </div>
                     </div>
                 </li>
-                <li style="display: none;">
+                <li class="display--none">
                     <div class="project">
-                        <img src="src/images/vidflow-landscape-image.jpg" alt="Imagem do Projeto VidFlow">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="./src/images/vidflow-portrait-image.jpg">
+                            <img src="./src/images/vidflow-landscape-image.jpg" alt="Imagem do Projeto VidFlow">
+                        </picture>
                         <div>
                             <h3>VidFlow</h3>
                             <p>Projeto Alura para consumir e tratar dados de uma API</p>
@@ -178,26 +190,49 @@
         </section>
     </main>
     <footer class="footer">
-        <section>
-            <h3>Contatos</h3>
-            <span class="footer__social-medias">
-                <a href="https://github.com/coelhoalexandre" target="_blank"><img src="./src/icons/social-media/github-icon.svg" alt="Visite meu GitHub"></a>
-                <a href="https://www.linkedin.com/in/-coelhoalexandre/" target="_blank"><img src="./src/icons/social-media/linkedin-icon.svg" alt="Visite meu LinkedIn"></a>
-                <a href="https://www.instagram.com/coelhoalexandre_/" target="_blank"><img src="./src/icons/social-media/instagram-icon.svg" alt="Visite meu Instagram"></a>
-                <a href="mailto:alexandrecoelhocontato@gmail.com" target="_blank"><img src="./src/icons/social-media/gmail-icon.svg" alt="Envie um e-mail"></a>
-            </span>
-        </section>
-        <section>
-            <h3>Desenvolvimento <br> do Projeto</h3>
-            <div class="footer__container">
-                <p>Desenvolvido em HTML, CSS e JS</p>
-                <a href="https://github.com/coelhoalexandre/alexandrecoelho" target="_blank">Repositório</a>
-                <a href="https://www.figma.com/file/eQ5EsJA4wYEp5ZxuLgId0n/Alexandre-Coelho-Portfolio?type=design&node-id=18%3A10&mode=design&t=L8BLQqKK37jyMRMF-1" target="_blank">Figma</a>
-            </div>
-        </section>
+        <footer class="footer__wrapper">
+            <section>
+                <h3>Contatos</h3>
+                <ul class="footer__social-medias">
+                    <li>
+                        <a href="https://github.com/coelhoalexandre" target="_blank">
+                            <img src="./src/icons/social-media/github-icon.svg" alt="Visite meu GitHub">
+                            <span>coelhoalexandre</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/-coelhoalexandre/" target="_blank">
+                            <img src="./src/icons/social-media/linkedin-icon.svg" alt="Visite meu LinkedIn">
+                            <span>-coelhoalexandre</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/coelhoalexandre_/" target="_blank">
+                            <img src="./src/icons/social-media/instagram-icon.svg" alt="Visite meu Instagram">
+                            <span>@coelhoalexandre_</sp>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:alexandrecoelhocontato@gmail.com" target="_blank">
+                            <img src="./src/icons/social-media/gmail-icon.svg" alt="Envie um e-mail">
+                            <span>alexandrecoelhocontato@gmail.com</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="footer__container">
+                <h3>Desenvolvimento <br> do Projeto</h3>
+                <div class="footer__container__wrapper">
+                    <p>Desenvolvido em HTML, CSS e JS</p>
+                    <a href="https://github.com/coelhoalexandre/alexandrecoelho" target="_blank">Repositório</a>
+                    <a href="https://www.figma.com/file/eQ5EsJA4wYEp5ZxuLgId0n/Alexandre-Coelho-Portfolio?type=design&node-id=18%3A10&mode=design&t=L8BLQqKK37jyMRMF-1" target="_blank">Figma</a>
+                </div>
+            </section>
+        </footer>
         <hr>
         <section class="footer__copy">
             <p>&copy 2024 - Todos os direitos Reservados</p>
+            <p class="footer__copy__p--none">|</p>
             <p>Desenvolvido por Alexandre Coelho</p>
         </section>
     </footer>

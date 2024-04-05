@@ -10,6 +10,10 @@
     gap: 3rem;
 }
 
+.display--none {
+    display: none;
+}
+
 .project {
     background-color: var(--tertiary-color);
     width: 30rem;
@@ -72,4 +76,27 @@
 .projects button:hover {
     font-weight: bold;
     transform: scale(1.05);
+}
+
+@media screen and (min-width: 768px) {
+    .project {
+        display: flex;
+        width: 50rem;
+    }
+    
+    .project picture {
+        height: 280px;
+    }
+
+    .project div {
+        gap: 1rem;
+    
+        
+        padding: 2rem 1.5rem;
+    }
+
+    .project__technologies img {
+        width: 30px;
+    }
+
 }

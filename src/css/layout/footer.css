@@ -3,6 +3,12 @@
     text-align: center;
 }
 
+.footer__social-medias {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+}
+
 .footer__social-medias img {
     width: 40px;
     margin: 3rem 15px;
@@ -13,18 +19,27 @@
     transform: scale(1.1);
 }
 
+.footer__social-medias span {
+    display: none;
+}
+
 .footer__container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.footer__container__wrapper {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     
     width: fit-content;
-    margin: 3rem auto;
+    margin: 2rem auto 3rem;
     
     text-align: left;
 }
 
-.footer__container a {
+.footer__container__wrapper a {
     color: var(--secondary-color);
 }
 
@@ -34,4 +49,89 @@
 
 .footer__copy {
     margin-top: 4rem;
+}
+
+.footer__copy__p--none {
+    display: none;
+}
+
+@media screen and (min-width: 480px) {
+    .footer br {
+        display: none;
+    }
+
+    .footer__container__wrapper {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 5rem 8rem;
+    }
+    .footer__wrapper {
+        display: flex;
+        gap: 12rem;
+    }
+
+    .footer__social-medias {
+        flex-wrap: wrap;
+        gap: 30px;
+        width: 110px;
+        margin-top: 2rem;
+    }
+
+    .footer__social-medias img {
+        margin: 0;
+    }
+
+    .footer hr {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer h3 {
+        text-align: left;
+    }
+
+    .footer__wrapper {
+        gap: 8rem;
+    }
+
+    .footer__social-medias {
+        flex-direction: column;
+        gap: 30px;
+        width: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .footer__social-medias a {
+        display: flex;
+        align-items: center;
+        color: var(--secondary-color);
+        text-decoration: none;
+    }
+
+    .footer__social-medias a:hover img {
+        
+    transform: scale(1.1);
+    }
+
+    .footer__social-medias span {
+        display: inline;
+        margin-left: 1rem;
+    }
+
+    .footer__copy {
+        display: flex;
+        gap: 0.5rem;
+        width: fit-content;
+        margin: 4rem auto 0;
+    }
+
+    .footer__copy__p--none {
+        display: block;
+    }
 }

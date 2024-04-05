@@ -20,12 +20,33 @@
     margin-bottom: 1.5rem;
 }
 
-@media screen and (min-height: 782px) {
+@media screen and (min-height: 878px) and (max-height: 1000px) {
     .about {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: calc( 100vh - 10rem );
+        height: 100vh;
     }
     
+}
+
+@media screen and (min-width: 480px) {
+    .about div {
+        width: 42rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about div {
+        width: 70rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (min-height: 608px) and (max-height: 1200px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
 }

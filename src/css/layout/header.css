@@ -9,7 +9,7 @@
 
     width: 100%;
     height: 8rem;
-    padding-left: 40px;
+    padding-left: 4rem;
 
     transition: .3s ease-in-out;
 }
@@ -60,7 +60,6 @@
     width: 180px;
 
     text-align: center;
-    transition: 10s;
 }
 
 .header__navigation a {
@@ -80,4 +79,36 @@
 
 .navigation--visible {
     display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .header__menu-hamburger {
+        display: none;
+    }
+
+    .header__navigation {
+        display: block;
+
+        background-color: transparent;
+        position: static;
+        width: auto;
+
+        text-align: center;
+    }
+
+    .header__navigation ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .header__navigation a {
+        display: block;
+        border-radius: 10px;
+        padding: 1rem 1.5rem;
+        color: var(--primary-color);
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-decoration: none;
+        transition: .3s;
+    }
 }
