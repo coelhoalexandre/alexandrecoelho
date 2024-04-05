@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  <a href="https://github.com/coelhoalexandre/alexandrecoelho/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a> <img src="https://img.shields.io/badge/Em_Progresso-blue.svg" alt="Em Progresso">
+  <a href="https://github.com/coelhoalexandre/alexandrecoelho/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a> <img src="https://img.shields.io/badge/Concluído-blue.svg" alt="Concluído">
 
 </div>
 
@@ -17,12 +17,14 @@
 - [Funcionalidades do Projeto](#funcionalidades-do-projeto)
 - [Tecnologias Utilizadas](#tecnolgias-utilizadas)
 - [Figma Layout](#figma-layout)
-- [Diário de Desenvolvimento](#diario-de-desenvolvimento)
+- [Diário de Desenvolvimento](#diário-de-desenvolvimento)
 - [Autor](#autor)
 
 ## Sobre o Projeto
 
 Esse projeto está sendo desenvolvido por Alexandre Coelho e servirá como seu portfólio. Seu design foi realizado no **Figma** e seu código está sendo escrito no **Visual Studio Code**, ambos pelo autor desse ReadMe.
+
+Deploy do Projeto: https://alexandrecoelho.vercel.app/
 
 ## Objetivos do Projeto
 
@@ -41,7 +43,7 @@ Esse projeto está sendo desenvolvido por Alexandre Coelho e servirá como seu p
 - **Abrir Repositorio:** Abre o repositorio do respectivo projeto
 - **Links de Desenvolvimento:** O primeiro traz para o repositorio do projeto e o segundo leva ao figma.
 
-## Tecnolgias que serão Utilizadas
+## Tecnolgias Utilizadas
 
 - HTML
 - CSS
