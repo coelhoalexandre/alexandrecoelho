@@ -16,16 +16,13 @@
 - [Objetivos do Projeto](#objetivos-do-projeto)
 - [Funcionalidades do Projeto](#funcionalidades-do-projeto)
 - [Tecnologias Utilizadas](#tecnolgias-utilizadas)
-- [Layouts](#layouts)
-  - [Desktop Layout](#desktop-layout)
-  - [Tablet Layout](#tablet-layout)
-  - [Mobile Layout](#mobile-layout)
-- [Adaptações](#adaptações)
+- [Figma Layout](#figma-layout)
+- [Diário de Desenvolvimento](#diario-de-desenvolvimento)
 - [Autor](#autor)
 
 ## Sobre o Projeto
 
-Esse projeto está sendo desenvolvido por Alexandre Coelho e servirá como seu portfólio. Seu design foi realizado no **figma** e seu código está sendo escrito no **Visual Studio Code**, ambos pelo autor desse ReadMe.
+Esse projeto está sendo desenvolvido por Alexandre Coelho e servirá como seu portfólio. Seu design foi realizado no **Figma** e seu código está sendo escrito no **Visual Studio Code**, ambos pelo autor desse ReadMe.
 
 ## Objetivos do Projeto
 
@@ -37,7 +34,12 @@ Esse projeto está sendo desenvolvido por Alexandre Coelho e servirá como seu p
 
 ## Funcionalidades do Projeto
 
-- Até o momento, somente links
+- **Navegação do Header:** Redirecionam para partes da página que representa ao link.
+- **Links de Rede Sociais:** Cada Link redireciona para minha página especifica em cada rede social representada pela imagem.
+- **Flecha:** Ao clicar a tela desce em scroll do ponto 0 ate 100vh, iniciando exatamente na section do about.
+- **Abrir Deploy:** Abre o deploy do respectivo projeto
+- **Abrir Repositorio:** Abre o repositorio do respectivo projeto
+- **Links de Desenvolvimento:** O primeiro traz para o repositorio do projeto e o segundo leva ao figma.
 
 ## Tecnolgias que serão Utilizadas
 
@@ -45,11 +47,11 @@ Esse projeto está sendo desenvolvido por Alexandre Coelho e servirá como seu p
 - CSS
 - JS
 
-## Layouts
-
-### Figma Layout
+## Figma Layout
 
 [Link do Figma](https://www.figma.com/file/eQ5EsJA4wYEp5ZxuLgId0n/Alexandre-Coelho-Portfolio?type=design&node-id=0%3A1&mode=design&t=L8BLQqKK37jyMRMF-1)
+
+Observações: Há diferença entre o Layout finalizado e o do Figma, por questões de fazer mais sentido, ficar mais acessivel ou ser de fato mais bonito.
 
 ## Diário de Desenvolvimento
 
@@ -58,6 +60,7 @@ Esse projeto está sendo desenvolvido por Alexandre Coelho e servirá como seu p
 3º Dia - Adição do index.html e todo o conteúdo do projeto na página <br>
 4º Dia - Inicio da adição de estilos css <br>
 5º Dia - Finalização da estilização do mobile <br>
+6º Dia - Finalização do Projeto Portfolio.
 
 ## Autor
 
