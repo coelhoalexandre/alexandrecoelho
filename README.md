@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  <a href="https://github.com/coelhoalexandre/alexandrecoelho/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a> <img src="https://img.shields.io/badge/Concluído-blue.svg" alt="Concluído">
+  <a href="https://github.com/coelhoalexandre/alexandrecoelho/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a> <img src="https://img.shields.io/badge/Concluído-lightgreen.svg" alt="Concluído">
 
 </div>
 
