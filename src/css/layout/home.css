@@ -32,23 +32,22 @@
     width: auto;
 }
 
-.content__title-container ul {
-    position: absolute;
-    bottom: 0.5rem;
-    left: 55%;
-}
-
 .home__social-medias {
     display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    bottom: -5rem;
+    left: 100%;
 }
 
 .home__social-medias a {
     text-decoration: none;
-    margin-right: 15px;
+    margin-bottom: 1;
 }
 
 .home__social-medias img {
-    width: 15px;
+    width: 25px;
     transition: .5s;
 }
 
@@ -58,7 +57,85 @@
 
 
 
-@media screen and (min-height: 600px) {
+@media screen and (min-height: 600px)  {
+    .home {
+        height: 100vh;
+    }
+
+    .home__wrapper {
+        padding: 0;
+    }
+
+    .home__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        
+        background-color: var(--secondary-color);
+        height: 12vh;
+        width: 100%;
+    }
+    
+    .home__container div {
+        background-image: url('../../icons/arrow.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+    
+        width: 46px;
+        height: 53px;
+    
+        animation-name: arrowMovement;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        
+        cursor: pointer;
+    }
+    
+    @keyframes arrowMovement {
+        0% {
+            transform: translateY(5px);
+        }
+    
+        100% {
+            transform: translateY(-5px);
+        }
+    }
+}
+
+@media screen and (min-width: 590px) {
+
+    .home__content {
+        width: 46rem;
+    }
+
+    .home__description {
+        width: 37rem;
+    }
+
+    .home__social-medias {
+        flex-direction: row;
+        gap: 20px;
+        bottom: 0.8rem;
+        left: 60%;
+    }
+    
+    .home__social-medias img {
+        width: 25px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .home__wrapper {
+        flex-direction: row;
+        gap: 5rem;
+    }
+}
+
+@media screen and (min-width: 900px) and (min-height: 400px)  {
     .home {
         height: 100vh;
     }
@@ -72,17 +149,23 @@
         bottom: 0;
         
         background-color: var(--secondary-color);
-        height: 12vh;
+        height: 15vh;
         width: 100%;
     }
     
+    .home__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
     .home__container div {
         background-image: url('../../icons/arrow.svg');
         background-repeat: no-repeat;
         background-position: center center;
-    
-        height: 100%;
+        
+        width: 46px;
+        height: 53px;
     
         animation-name: arrowMovement;
         animation-duration: 1s;
@@ -102,38 +185,13 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-
-    .home__content {
-        width: 46rem;
-    }
-
-    .home__description {
-        width: 37rem;
-    }
+@media screen and (min-width: 1440px) {
 
     .content__title-container ul {
-        bottom: 0.8rem;
-        left: 60%;
-    }
-
-    .home__social-medias a {
-        margin-right: 20px;
+        left: 70%;
     }
     
     .home__social-medias img {
-        width: 25px;
-        transition: .5s;
-    }
-    
-    .home__social-medias img:hover {
-        transform: scale(1.1);
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .home__wrapper {
-        flex-direction: row;
-        gap: 5rem;
+        width: 30px;
     }
 }
