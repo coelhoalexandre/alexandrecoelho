@@ -11,9 +11,11 @@
 * {
     box-sizing: border-box;
 }
+
 html {
     font-family: var(--font-family-main);
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
